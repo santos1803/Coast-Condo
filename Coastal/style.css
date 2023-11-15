@@ -106,6 +106,7 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
+  overflow: hidden;
 }
 .contenidoPrincipal {
   width: 60%;
@@ -128,6 +129,7 @@ body {
   gap: 25px;
   position: relative;
   z-index: 10;
+
 }
 
 .textoContenidoPrincipal > p {
@@ -161,7 +163,7 @@ body {
   text-decoration: none;
   border: 2px solid #000000;
   border-radius: 10% / 40%;
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 1vw;
   font-weight: bold;
   background: transparent;
@@ -532,125 +534,189 @@ body {
   box-shadow: -10px -10px 40px #ebebeb, 10px 10px 30px #ffffff;
 }
 
+.contacUsBackground {
+  width: 100%;
+  height: 60vh;
+  background-image: url(./recursos/USA_Skyscrapers_Houses_453249.jpg);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: contrast(150%);
+  overflow: hidden;
+
+}
+
+.contectContactUs {
+  border: 4px solid white;
+  padding: 2%;
+  background-color: #00000082;
+
+}
+
+.contectContactUs h1 {
+  font-size: 3em;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 20px;
+
+}
+
 
 .contenedorCuatro {
     width: 100%;
-    height: 100vh;
-    background-image: url(./recursos//pexels-vlad-chețan-3195642.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formulario {
-    width: 50%;
-    padding: 2% 0;
+    background-color: #0e0e0e;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     align-items: center;
-    background: rgba( 0, 0, 0, 0.25 );
-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-backdrop-filter: blur( 2px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-
-}
-
-.formulario article {
-    width: 100%;
-
-}
-
-.articleFlex {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.articleFlex input {
-    width: 40%;
-    padding: 1.5% 0;
-    background-color: #ebebeb5d;
-    border: none;
-    border-radius: 25px;
-}
-
-
-.articleFlex input::placeholder {
-    color: white;
-    font-size: 1.1em;
-    letter-spacing: 1px;
-    font-weight: 700;
-    padding-left: 15px;
-}
-
-.textArea {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.textArea textarea {
-    background-color: #ebebeb5d;
-    border: none;
-    border-radius: 12px;
-    color: white;
-    font-size: .8em;
-    letter-spacing: 1px;
-    font-weight: 700;
-    padding-left: 15px;
-}
-
-.articleFlex [type=text], .articleFlex [type=phone], .articleFlex [type=email]   {
-    color: white;
-    font-size: .8em;
-    letter-spacing: 1px;
-    font-weight: 700;
-    padding-left: 15px;
-}
-
-.estiloBotones--b {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid #ffffff;
-    border-radius: 10% / 40%;
-    padding: 10px 20px;
-    font-size: 1.2vw;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 1s;
     overflow: hidden;
-    margin-top: 30px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 1.5px;
-  }
+   
+}
+
+.containIcons {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+
+}
+
+.txtContainIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+  margin-top: 5em;
+
+
+}
+
+
+.txtContainIcons h1 {
+  color: #ad844c;
+  font-size: 3em;
+  font-style:italic;
+  letter-spacing: 2px;
+  font-weight: 500;
   
-  .estiloBotones--b:hover {
-    color: white;
-    border: 2px solid black;
-  }
-  
-  .estiloBotones--b::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -40px;
-    transform: skewX(45deg);
-    background-color: #000000;
-    z-index: -1;
-    transition: all 1s;
-  }
-  
-  .estiloBotones--b:hover::before {
-    width: 160%;
-  }
+
+}
+
+.separadoresInconsTxt{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.separadoresContenido{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.separadoresContenido img{
+  width: 40px;
+
+}
+
+
+.separadoresContenido h4{
+  font-size: .9em;
+  color: #ad844c;
+
+}
+
+.separadoresContenido p{
+  text-align: center;
+  font-size: .8em;
+  letter-spacing: 1px;
+  color: rgb(181, 181, 181);
+
+}
+
+.direccion {
+  line-height: 1.85em;
+
+}
+
+.separadores {
+  width: 3px;
+  height: 15em;
+  background-color: #ad844c;
+}
+
+.txtForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 5em;
+
+}
+
+.txtForm h3 {
+  color: rgb(181, 181, 181);
+  font-size: 1.1em;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+}
+
+
+.formulario {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 45px;
+  padding-bottom: 30px;
+}
+
+.formulario input, .formulario textarea {
+  width: 100%;
+  background-color: #272727;
+  border: none;
+  color: rgb(181, 181, 181);
+}
+
+.formulario input::placeholder, .formulario textarea::placeholder {
+
+  color: rgb(181, 181, 181);
+}
+
+.formulario input[type=text], .formulario input[type=phone], .formulario input[type=email] {
+  color: rgb(181, 181, 181);
+  font-size: .9em;
+  padding: 1.5% 0 1.5% 2%;
+  letter-spacing: 1px;
+
+}
+
+textarea {
+  color: rgb(181, 181, 181);
+  font-size: .9em;
+  padding: 1.5% 0 1.5% 2%;
+  letter-spacing: 1px;
+}
+
+.buttonForm {
+  width: 23%;
+  padding: 1.5% 0;
+  background-color: #ad844c;
+  border: none;
+  font-size: .9em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
