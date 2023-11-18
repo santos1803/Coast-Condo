@@ -1,0 +1,23 @@
+@media (max-width:1200px) {}
+
+@media (max-width: 900px) {
+    .navegador {
+        display: none;
+    }
+    .bordeNegro {
+        width: 6%;
+    }
+    .menu {
+        display: block;
+    }
+    .menuResponsiveEnlace a {
+        width: 0;
+        overflow: hidden;
+    }
+    .menuResponsive {
+        display: flex;
+    }
+    .bordesNegross {
+        display: none;
+    }
+}

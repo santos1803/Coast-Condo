@@ -1,683 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Coast Condo</title>
-  </head>
-  <body>
-    <aside class="bordeNegro">
-      <section class="bordesNegross">
-        <article class="seccionMarca">
-          <div class="separador"></div>
-          <section class="tituloMarca"><h3>Coast Condo</h3></section>
-          <div class="separador"></div>
+</head>
+
+<body>
+    <aside class="bordeNegro" id="desplegable">
+        <article class="menu" id="mantener" onclick="abrir();">
+            <img src="./recursos/icons8-menú-50.png" alt="">
         </article>
 
-        <article class="seccionImg">
-          <a href=""
-            ><img src="./recursos/icons8-facebook-f-50.png" alt="" width="20px"
-          /></a>
-          <a href=""
-            ><img src="./recursos/icons8-instagram-50.png" alt="" width="20px"
-          /></a>
-          <a href=""
-            ><img
-              src="./recursos/icons8-circulado-x-50.png"
-              alt=""
-              width="20px"
-          /></a>
-        </article>
-      </section>
+        <section class="menuResponsive">
+            <article class="menuResponsiveEnlace">
+                <img src="./recursos/bombilla.png" alt="">
+                <a href="" id="letras">Introduction</a>
+            </article>
+            <article class="menuResponsiveEnlace">
+                <img src="./recursos/homa.png" alt="">
+                <a href="" id="letrotas">HomeWatch</a>
+            </article>
+            <article class="menuResponsiveEnlace">
+                <img src="./recursos/signo-de-dolar.png" alt="">
+                <a href="" id="letritas">Pricing</a>
+            </article>
+            <article class="menuResponsiveEnlace">
+                <img src="./recursos/grupo.png" alt="">
+                <a href="" id="letrass">About</a>
+            </article>
+            <article class="menuResponsiveEnlace">
+                <img src="./recursos/contactos.png" alt="">
+                <a href="" id="letrasss">Contact</a>
+            </article>
+
+        </section>
+        <section class="bordesNegross">
+
+            <article class="seccionMarca">
+                <div class="separador"></div>
+                <section class="tituloMarca">
+                    <h3>Coast Condo</h3>
+                </section>
+                <div class="separador"></div>
+            </article>
+
+            <article class="seccionImg">
+                <a href=""><img src="./recursos/icons8-facebook-f-50.png" alt="" width="20px" /></a>
+                <a href=""><img src="./recursos/icons8-instagram-50.png" alt="" width="20px" /></a>
+                <a href=""><img src="./recursos/icons8-circulado-x-50.png" alt="" width="20px" /></a>
+            </article>
+        </section>
     </aside>
     <div class="contenidoPagina">
-      <header class="header">
-        <nav class="navegador">
-          <article class="logo">
-            <h1>LOGO</h1>
-          </article>
-          <article class="enlacesNavegador">
-            <a href="">Introduction</a>
-            <a href="">HomeWatch</a>
-            <a href="">Pricing</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-          </article>
-        </nav>
-        <main class="principalPagina">
-          <section
-            class="textoContenidoPrincipal"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="50"
-          >
-            <p>At CoastCondoWatch,</p>
-            <h1>we strive to deliver nothing less than the highest quality</h1>
-            <p class="parrafo">
-              Our commitment to excellence is reflected in our team of fully
-              licensed, bonded, and insured specialists, who conduct thorough
-              weekly inspections of your property. We understand the importance
-              of providing you with the peace of mind you deserve, and that's
-              why we ensure a detailed report, complete with pictures and a
-              checklist of the inspection, is emailed to you after every visit.
-            </p>
-            <a href="" class="estiloBotones">Contact</a>
-          </section>
-          <section
-            class="contenidoPrincipal"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          ></section>
-        </main>
-      </header>
-      <div class="contenedorUno">
-        <section class="imagenContenedorUno">
-          <img
-            src="./recursos/pexels-jonathan-borba-5563472.jpg"
-            alt=""
-            class="parrafo"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-          />
-        </section>
-        <section class="textoContenedorUno">
-          <article
-            class="titulosh1"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="50"
-          >
-            <h1 class="primeraParteTitulo">Our primary</h1>
-            <h1>focus</h1>
-          </article>
+        <header class="header">
+            <nav class="navegador">
+                <article class="logo">
+                    <img src="./logo/image-removebg-preview.png" alt="" width="80px">
+                </article>
+                <article class="enlacesNavegador">
+                    <a href="">Introduction</a>
+                    <a href="">HomeWatch</a>
+                    <a href="">Pricing</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                </article>
+            </nav>
+            <main class="principalPagina">
+                <section class="textoContenidoPrincipal" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">
+                    <p>At CoastCondoWatch,</p>
+                    <h1>we strive to deliver nothing less than the highest quality</h1>
+                    <p class="parrafo">
+                        Our commitment to excellence is reflected in our team of fully licensed, bonded, and insured specialists, who conduct thorough weekly inspections of your property. We understand the importance of providing you with the peace of mind you deserve, and that's
+                        why we ensure a detailed report, complete with pictures and a checklist of the inspection, is emailed to you after every visit.
+                    </p>
+                    <a href="" class="estiloBotones">Contact</a>
+                </section>
+                <section class="contenidoPrincipal" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out"></section>
+            </main>
+        </header>
+        <div class="contenedorUno">
+            <section class="imagenContenedorUno">
+                <img src="./recursos/pexels-jonathan-borba-5563472.jpg" alt="" class="parrafo" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" />
+            </section>
+            <section class="textoContenedorUno">
+                <article class="titulosh1" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">
+                    <h1 class="primeraParteTitulo">Our primary</h1>
+                    <h1>focus</h1>
+                </article>
 
-          <p
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="150"
-          >
-            is on our seasonal residents, as we recognize the significance of
-            ensuring that your property is well-taken care of even in your
-            absence. We are here to provide you with the reassurance that your
-            home is being meticulously looked after while you are away.
-          </p>
-          <section class="navegadorInterno">
-            <!-- <article class="enlacesNavegadorInterno">
+                <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="150">
+                    is on our seasonal residents, as we recognize the significance of ensuring that your property is well-taken care of even in your absence. We are here to provide you with the reassurance that your home is being meticulously looked after while you are away.
+                </p>
+                <section class="navegadorInterno">
+                    <!-- <article class="enlacesNavegadorInterno">
                 <a id="enlaceGrid" href="" >Condominiums</a>
                 <a  id="enlaceGrid" href="">Houses</a>
                 <a class="enlaceGrid" href="">Apartments</a>
                 <a class="enlaceGrid" href="">V.I.P</a>
             </article> -->
-            <article class="contenedorGrid">
-              <articleb
-                class="grid--a"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-delay="150"
-              ></articleb>
-              <article
-                class="grid--b"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-delay="150"
-              ></article>
-              <article
-                class="grid--c"
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-delay="150"
-              ></article>
-            </article>
-          </section>
-        </section>
-      </div>
-      <div class="contenedorDos">
-        <section
-          class="precios precios--a"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-        >
-          <article class="contenedorPrecios">
-            <h2>Silver Program</h2>
-            <article class="arrow">
-              <img src="./recursos/icons8-izquierda-60.png" alt="" />
-              <h3>Hover</h3>
-            </article>
-          </article>
-          <article class="desaparece">
-            <article class="desapareceImg"></article>
-            <section class="desapareceTxt">
-              <article class="desapareceTxtTitulo">
-                <h2>50$</h2>
-              </article>
-              <article class="desapareceTxtTitulo2">
-                <h3>Per Visit</h3>
-              </article>
-              <section class="listaItems">
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
-                </article>
-
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Replacement of AC filter.</p>
-                </article>
-
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run water in toilets, showers, and sinks</p>
-                </article>
-
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run garbage disposal</p>
-                </article>
-
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Water Plants. Apply nutrients</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for water leaks</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for mold and moisture</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Monitor landscape and pool water/level, if any</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Empty mailbox</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Inspect breaker box</p>
-                </article>
-                <a href="" class="estiloBotones estiloBotones--a">Contact</a>
-              </section>
+                    <article class="contenedorGrid">
+                        <articleb class="grid--a" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="150"></articleb>
+                        <article class="grid--b" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="150"></article>
+                        <article class="grid--c" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="150"></article>
+                    </article>
+                </section>
             </section>
-          </article>
-        </section>
-        <section
-          class="precios precios--b"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="200"
-        >
-          <article class="contenedorPrecios">
-            <h2>Gold Program</h2>
-            <article class="arrow">
-              <img src="./recursos/icons8-izquierda-60.png" alt="" />
-              <h3>Hover</h3>
-            </article>
-          </article>
-          <article class="desaparece">
-            <article class="desapareceImg desapareceImg--b"></article>
-            <section class="desapareceTxt">
-              <article class="desapareceTxtTitulo">
-                <h2>80$</h2>
-              </article>
-              <article class="desapareceTxtTitulo2">
-                <h3>2 Visits Monthly</h3>
-              </article>
-              <section class="listaItems">
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+        </div>
+        <div class="contenedorDos">
+            <section class="precios precios--a" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <article class="contenedorPrecios">
+                    <h2>Silver Program</h2>
+                    <article class="arrow">
+                        <img src="./recursos/icons8-izquierda-60.png" alt="" />
+                        <h3>Hover</h3>
+                    </article>
                 </article>
+                <article class="desaparece">
+                    <article class="desapareceImg"></article>
+                    <section class="desapareceTxt">
+                        <article class="desapareceTxtTitulo">
+                            <h2>50$</h2>
+                        </article>
+                        <article class="desapareceTxtTitulo2">
+                            <h3>Per Visit</h3>
+                        </article>
+                        <section class="listaItems">
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Replacement of AC filter.</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Replacement of AC filter.</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run water in toilets, showers, and sinks</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run water in toilets, showers, and sinks</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run garbage disposal</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run garbage disposal</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Water Plants. Apply nutrients</p>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Water Plants. Apply nutrients</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for water leaks</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for mold and moisture</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Monitor landscape and pool water/level, if any</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Empty mailbox</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Adjust fans if necessary</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Ensure windows and doors are locked</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Inspect breaker box</p>
+                            </article>
+                            <a href="" class="estiloBotones estiloBotones--a">Contact</a>
+                        </section>
+                    </section>
                 </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for water leaks</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for mold and moisture</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Monitor landscape and pool water/level, if any</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Empty mailbox</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
-
-                <a href="" class="estiloBotones estiloBotones--a">Contact</a>
-              </section>
             </section>
-          </article>
-        </section>
-        <section
-          class="precios precios--c"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="400"
-        >
-          <article class="contenedorPrecios">
-            <h2>Diamond Program</h2>
-            <article class="arrow">
-              <img src="./recursos/icons8-izquierda-60.png" alt="" />
-              <h3>Hover</h3>
-            </article>
-          </article>
-          <article class="desaparece">
-            <article class="desapareceImg desapareceImg--c"></article>
-            <section class="desapareceTxt">
-              <article class="desapareceTxtTitulo">
-                <h2>120$</h2>
-              </article>
-              <article class="desapareceTxtTitulo2">
-                <h3>4 Visits Monthly</h3>
-              </article>
-              <section class="listaItems">
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+            <section class="precios precios--b" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="200">
+                <article class="contenedorPrecios">
+                    <h2>Gold Program</h2>
+                    <article class="arrow">
+                        <img src="./recursos/icons8-izquierda-60.png" alt="" />
+                        <h3>Hover</h3>
+                    </article>
                 </article>
+                <article class="desaparece">
+                    <article class="desapareceImg desapareceImg--b"></article>
+                    <section class="desapareceTxt">
+                        <article class="desapareceTxtTitulo">
+                            <h2>80$</h2>
+                        </article>
+                        <article class="desapareceTxtTitulo2">
+                            <h3>2 Visits Monthly</h3>
+                        </article>
+                        <section class="listaItems">
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Replacement of AC filter.</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Replacement of AC filter.</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run water in toilets, showers, and sinks</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run water in toilets, showers, and sinks</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Run garbage disposal</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run garbage disposal</p>
+                            </article>
 
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Water Plants. Apply nutrients</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for water leaks</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Check for mold and moisture</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Monitor landscape and pool water/level, if any</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Empty mailbox</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Water Plants. Apply nutrients</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for water leaks</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for mold and moisture</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Monitor landscape and pool water/level, if any</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Empty mailbox</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Adjust fans if necessary</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Ensure windows and doors are locked</p>
+                            </article>
 
-                <a href="" class="estiloBotones estiloBotones--a">Contact</a>
-              </section>
+                            <a href="" class="estiloBotones estiloBotones--a">Contact</a>
+                        </section>
+                    </section>
+                </article>
             </section>
-          </article>
+            <section class="precios precios--c" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="400">
+                <article class="contenedorPrecios">
+                    <h2>Diamond Program</h2>
+                    <article class="arrow">
+                        <img src="./recursos/icons8-izquierda-60.png" alt="" />
+                        <h3>Hover</h3>
+                    </article>
+                </article>
+                <article class="desaparece">
+                    <article class="desapareceImg desapareceImg--c"></article>
+                    <section class="desapareceTxt">
+                        <article class="desapareceTxtTitulo">
+                            <h2>120$</h2>
+                        </article>
+                        <article class="desapareceTxtTitulo2">
+                            <h3>4 Visits Monthly</h3>
+                        </article>
+                        <section class="listaItems">
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+                            </article>
+
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Replacement of AC filter.</p>
+                            </article>
+
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run water in toilets, showers, and sinks</p>
+                            </article>
+
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Run garbage disposal</p>
+                            </article>
+
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Water Plants. Apply nutrients</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for water leaks</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Check for mold and moisture</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Monitor landscape and pool water/level, if any</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Empty mailbox</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Adjust fans if necessary</p>
+                            </article>
+                            <article class="checklist">
+                                <img src="./recursos/icons8-casilla-de-verificación-marcada-50.png" alt="" />
+                                <p>Ensure windows and doors are locked</p>
+                            </article>
+
+                            <a href="" class="estiloBotones estiloBotones--a">Contact</a>
+                        </section>
+                    </section>
+                </article>
+            </section>
+        </div>
+        <div class="contenedorTres">
+            <article class="txtGonzo">
+                <p class="parrafo1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    Mr. Gonzalo Navarro, has a diverse background and extensive experience, brings a wealth of knowledge and expertise to CoastCondoWatch, LLC operations. Born in Santiago, Chile, and raised in New York and Florida, his multicultural upbringing has endowed
+                    him with a unique perspective on the needs and expectations of our esteemed clientele. Mr. Navarro is a distinguished graduate of Nova Southeastern University, where he obtained a Bachelor of Science degree in Hospitality Operations
+                    Administration. With a remarkable career spanning over 25 years, he has held executive positions in the Hospitality Hotel and Private Country Club industry, demonstrating exceptional leadership and a deep understanding of the complexities
+                    of property management.
+                </p>
+                <article class="imgGonzo" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    <img src="./recursos/IMG-20231113-WA0017.jpg" alt="" />
+                </article>
+            </article>
+            <article class="txtGonzo">
+                <article class="imgGonzo" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    <img class="imagenModificada" src="./recursos/pexels-piers-olphin-12895191.jpg" alt="" />
+                </article>
+                <p class="parrafo1 parrafo1--a" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    In addition to his extensive experience in the hospitality sector, Mr. Navarro has also serves as a Florida Realtor, specializing in Private Real Estate Equity Investments and Consulting Services. His comprehensive understanding of the real estate market
+                    further enhances CoastCondoWatch capabilities in providing you with a comprehensive Home Watch Management solution.At CoastCondoWatch, we recognize the growing number of property owners who possess multiple homes. Understanding the
+                    challenges associated with maintaining these properties, we aim to offer you peace of mind through our reliable services. In an era where relying on friends or neighbors to check on seasonal properties poses potential liabilities and
+                    inconveniences, CoastCondoWatch, provides a trusted, professional, and quality service that relieves you of these worries.
+                </p>
+            </article>
+            <article class="txtGonzo">
+                <p class="parrafo1" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    We remain committed to upholding our values of Quality, Professionalism, and Trust. We are confident in our ability to serve you with the utmost dedication and competence. Thank you for entrusting CoastCondoWatch, LLC with the care of your seasonal condominiums
+                    in Pompano Beach. We look forward to serving you with excellence and ensuring that your properties are always in the best hands. <br />
+                    <span>Sincerely, CoastCondoWatch, LLC</span>
+                </p>
+                <article class="imgGonzo" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    <img class="imagenModificada" src="./recursos/pexels-nilüfer-yılmaz-16652974.jpg" alt="" />
+                </article>
+            </article>
+        </div>
+        <section class="contacUsBackground">
+            <article class="contectContactUs" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                <h1>CONTACT US</h1>
+            </article>
         </section>
-      </div>
-      <div class="contenedorTres">
-        <article class="txtGonzo">
-          <p
-            class="parrafo1"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            Mr. Gonzalo Navarro, has a diverse background and extensive
-            experience, brings a wealth of knowledge and expertise to
-            CoastCondoWatch, LLC operations. Born in Santiago, Chile, and raised
-            in New York and Florida, his multicultural upbringing has endowed
-            him with a unique perspective on the needs and expectations of our
-            esteemed clientele. Mr. Navarro is a distinguished graduate of Nova
-            Southeastern University, where he obtained a Bachelor of Science
-            degree in Hospitality Operations Administration. With a remarkable
-            career spanning over 25 years, he has held executive positions in
-            the Hospitality Hotel and Private Country Club industry,
-            demonstrating exceptional leadership and a deep understanding of the
-            complexities of property management.
-          </p>
-          <article
-            class="imgGonzo"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            <img src="./recursos/IMG-20231113-WA0017.jpg" alt="" />
-          </article>
-        </article>
-        <article class="txtGonzo">
-          <article
-            class="imgGonzo"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            <img
-              class="imagenModificada"
-              src="./recursos/pexels-piers-olphin-12895191.jpg"
-              alt=""
-            />
-          </article>
-          <p
-            class="parrafo1 parrafo1--a"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            In addition to his extensive experience in the hospitality sector,
-            Mr. Navarro has also serves as a Florida Realtor, specializing in
-            Private Real Estate Equity Investments and Consulting Services. His
-            comprehensive understanding of the real estate market further
-            enhances CoastCondoWatch capabilities in providing you with a
-            comprehensive Home Watch Management solution.At CoastCondoWatch, we
-            recognize the growing number of property owners who possess multiple
-            homes. Understanding the challenges associated with maintaining
-            these properties, we aim to offer you peace of mind through our
-            reliable services. In an era where relying on friends or neighbors
-            to check on seasonal properties poses potential liabilities and
-            inconveniences, CoastCondoWatch, provides a trusted, professional,
-            and quality service that relieves you of these worries.
-          </p>
-        </article>
-        <article class="txtGonzo">
-          <p
-            class="parrafo1"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            We remain committed to upholding our values of Quality,
-            Professionalism, and Trust. We are confident in our ability to serve
-            you with the utmost dedication and competence. Thank you for
-            entrusting CoastCondoWatch, LLC with the care of your seasonal
-            condominiums in Pompano Beach. We look forward to serving you with
-            excellence and ensuring that your properties are always in the best
-            hands. <br />
-            <span>Sincerely, CoastCondoWatch, LLC</span>
-          </p>
-          <article
-            class="imgGonzo"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-          >
-            <img
-              class="imagenModificada"
-              src="./recursos/pexels-nilüfer-yılmaz-16652974.jpg"
-              alt=""
-            />
-          </article>
-        </article>
-      </div>
-      <section class="contacUsBackground">
-        <article class="contectContactUs"  data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-delay="0"><h1>CONTACT US</h1></article>
-      </section>
-      <div class="contenedorCuatro">
-        <section class="containIcons">
-          <article class="txtContainIcons" data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="0">
-            <h1>Get in touch with us !</h1>
-          </article>
-          <section class="separadoresInconsTxt" >
-            <article class="separadoresContenido" data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0">
-              <img src="./recursos/icons8-smartphone-50.png" alt="" />
-              <h4>PHONE</h4>
-              <p>Phone +1 568 346 214</p>
-              <p>Phone +1 568 346 214</p>
-            </article>
-            <section class="separadores" data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"></section>
-            <article class="separadoresContenido" data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0">
-              <img src="./recursos/icons8-marcador-50.png" alt="" />
-              <h4>ADDRESS</h4>
-              <p class="direccion">
-                3900 Highway 389 Panama City FL 32405-6616 USA
-              </p>
-            </article>
-            <section class="separadores" data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"></section>
-            <article class="separadoresContenido" data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0">
-              <img src="./recursos/icons8-mensaje-50.png" alt="" />
-              <h4>EMAIL</h4>
-              <p>coastcondo@gonzo.com</p>
-              <p>coastcondowatch@gonzo.com</p>
-            </article>
-          </section>
-          <article class="txtForm" data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="0">
-            <h3>IF YOU GOT ANY QUESTIONS</h3>
-            <h3>PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
-          </article>
-          <form action="" class="formulario">
-            <input type="text" placeholder="Your Name" data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0" />
-            <input type="phone" placeholder="Your Phone" data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"/>
-            <input type="email" placeholder="Your Email" data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"/>
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Message"
-              data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="0"
-            ></textarea>
-            <button class="buttonForm" >SEND MESSAGE</button>
-          </form>
-        </section>
-      </div>
+        <div class="contenedorCuatro">
+            <section class="containIcons">
+                <article class="txtContainIcons" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    <h1>Get in touch with us !</h1>
+                </article>
+                <section class="separadoresInconsTxt">
+                    <article class="separadoresContenido" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                        <img src="./recursos/icons8-smartphone-50.png" alt="" />
+                        <h4>PHONE</h4>
+                        <p>Phone +1 568 346 214</p>
+                        <p>Phone +1 568 346 214</p>
+                    </article>
+                    <section class="separadores" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0"></section>
+                    <article class="separadoresContenido" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                        <img src="./recursos/icons8-marcador-50.png" alt="" />
+                        <h4>ADDRESS</h4>
+                        <p class="direccion">
+                            3900 Highway 389 Panama City FL 32405-6616 USA
+                        </p>
+                    </article>
+                    <section class="separadores" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0"></section>
+                    <article class="separadoresContenido" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                        <img src="./recursos/icons8-mensaje-50.png" alt="" />
+                        <h4>EMAIL</h4>
+                        <p>coastcondo@gonzo.com</p>
+                        <p>coastcondowatch@gonzo.com</p>
+                    </article>
+                </section>
+                <article class="txtForm" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0">
+                    <h3>IF YOU GOT ANY QUESTIONS</h3>
+                    <h3>PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
+                </article>
+                <form action="" class="formulario">
+                    <input type="text" placeholder="Your Name" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0" />
+                    <input type="phone" placeholder="Your Phone" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0" />
+                    <input type="email" placeholder="Your Email" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="0"></textarea>
+                    <button class="buttonForm">SEND MESSAGE</button>
+                </form>
+            </section>
+        </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./main.js"></script>
-  </body>
+    <script src="./index.js"></script>
+</body>
+
 </html>
