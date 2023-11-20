@@ -226,7 +226,7 @@ body {
     width: 70%;
     display: none;
     flex-direction: column;
-    padding: 3.5% 2%;
+    padding: 5% 2% 0 2%;
     gap: 40px;
 
 }
