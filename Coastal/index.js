@@ -238,7 +238,7 @@ let screens = window.innerWidth
         clic =  1;
 
 } else if (clic == 1  && screens <= 449) {
-    document.getElementById("desplegable").style.width = "58%";
+    document.getElementById("desplegable").style.width = "65%";
         document.getElementById("desplegable").style.transition = ".5s";
         document.getElementById("mantener").style.left = "1%"
         document.getElementById("letras").style.width = "80%"
@@ -254,7 +254,7 @@ let screens = window.innerWidth
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = ".5s"
         document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
-        document.getElementById("paginaPrincipal").style.width = "60%"
+        document.getElementById("paginaPrincipal").style.width = "50%"
         document.getElementById("paginaPrincipal").style.transition = ".5s"
    
      

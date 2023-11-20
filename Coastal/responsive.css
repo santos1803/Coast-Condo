@@ -117,6 +117,54 @@
 
 /*CONTENIDO PRINCIPAL EN EL HEADER*/
 
+@media (max-width:1200px) {
+    .textoContenidoPrincipal{
+        gap: 20px;
+
+    }
+
+    .textoContenidoPrincipal h1 {
+       
+        font-size: 2em;
+    }
+    .parrafo {
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+
+    .estiloBotones {
+        width: 25%;
+        
+        font-size: 1.2vw;
+       
+    }
+    
+}
+
+@media (max-width:1070px) {
+    .textoContenidoPrincipal{
+        gap: 20px;
+
+    }
+
+    .textoContenidoPrincipal h1 {
+       
+        font-size: 1.8em;
+    }
+    .parrafo {
+        font-size: 1.1em;
+        line-height: 1.6em;
+    }
+
+    .estiloBotones {
+        width: 30%;
+        
+        font-size: 1.4vw;
+       
+    }
+    
+}
+
 @media (max-width:900px) {
     .principalPagina {
         display:flex;
@@ -127,6 +175,130 @@
 
     .contenidoPrincipal {
         width: 100%;
+        background-image: url(./recursos/pexels-katterinaaa-8256437.jpg);
+        display: flex;
+        overflow: hidden;
+        
     }
+
+    .contenedorLetrasResponsive {
+        display: flex;
+    
+    }
+
+    .estiloBotones--b {
+        width: 25%;
+        font-size: 1.8vw;
+    }
+    
+    
+}
+
+@media (max-width:770px) {
+
+    .contenedorLetrasResponsive {
+
+        width: 75%;
+       
+    
+    }
+    .contenedorLetrasResponsive h1 {
+        
+        font-size: 2.5em;
+    
+    }
+
+    .parrafo--a {
+        text-shadow: 20px;
+        font-size: 1.1em;
+    }
+
+    .estiloBotones--b {
+        width: 20%;
+        font-size: 1.8vw;
+    }
+    
+    
+}
+
+@media (max-width:630px) {
+
+    .contenedorLetrasResponsive {
+
+        width: 78%;
+       
+    
+    }
+    .contenedorLetrasResponsive h1 {
+        
+        font-size: 2.1em;
+    
+    }
+
+    .parrafo--a {
+        text-shadow: 20px;
+        font-size: 1em;
+    }
+
+    .estiloBotones--b {
+        width: 24%;
+        font-size: 2vw;
+    }
+    
+    
+}
+
+
+@media (max-width:520px) {
+
+    .contenedorLetrasResponsive {
+
+        width: 90%;
+       
+    
+    }
+    .contenedorLetrasResponsive h1 {
+        
+        font-size: 1.9em;
+    
+    }
+
+    .parrafo--a {
+        text-shadow: 20px;
+        font-size: 1em;
+    }
+
+    .estiloBotones--b {
+        width: 24%;
+        font-size: 2.4vw;
+    }
+    
+    
+}
+
+@media (max-width:440px) {
+
+    .contenedorLetrasResponsive {
+
+        width: 95%;
+       
+    
+    }
+    .contenedorLetrasResponsive h1 {
+        
+        font-size: 1.7em;
+    
+    }
+
+    .parrafo--a {
+        text-shadow: 20px;
+        font-size: .9em;
+    }
+
+    .estiloBotones--b {
+        width: 24%;
+        font-size: 2.8vw;
+    }
+    
     
 }
