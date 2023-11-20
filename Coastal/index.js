@@ -43,7 +43,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
+  
         document.getElementById("paginaPrincipal").style.transition = "2s"
      
   
@@ -72,7 +72,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "25%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "none"
+    
         document.getElementById("paginaPrincipal").style.transition = "2s"
 
         clic = 1;
@@ -93,7 +93,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
+
         document.getElementById("paginaPrincipal").style.transition = "2s"
      
   
@@ -121,7 +121,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "25%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "none"
+   
         document.getElementById("paginaPrincipal").style.transition = "2s"
      
   
@@ -145,7 +145,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
+
         document.getElementById("paginaPrincipal").style.transition = "2s"
      
   
@@ -173,7 +173,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = "1s"
         document.getElementById("flexContact").style.width = "25%"
         document.getElementById("flexContact").style.transition = "1s"
-        document.getElementById("paginaPrincipal").style.filter = "none"
+    
         document.getElementById("paginaPrincipal").style.transition = "2s"
      
   
@@ -197,7 +197,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = ".5s"
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = ".5s"
-        document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
+
         document.getElementById("paginaPrincipal").style.width = "60%"
         document.getElementById("paginaPrincipal").style.transition = ".5s"
    
@@ -227,7 +227,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = ".5s"
         document.getElementById("flexContact").style.width = "25%"
         document.getElementById("flexContact").style.transition = ".5s"
-        document.getElementById("paginaPrincipal").style.filter = "none"
+
          document.getElementById("paginaPrincipal").style.width = "100%"
         document.getElementById("paginaPrincipal").style.transition = ".5s"
        
@@ -253,7 +253,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = ".5s"
         document.getElementById("flexContact").style.width = "80%"
         document.getElementById("flexContact").style.transition = ".5s"
-        document.getElementById("paginaPrincipal").style.filter = "grayscale(100%)"
+  
         document.getElementById("paginaPrincipal").style.width = "50%"
         document.getElementById("paginaPrincipal").style.transition = ".5s"
    
@@ -283,7 +283,7 @@ let screens = window.innerWidth
         document.getElementById("letrasss").style.transition = ".5s"
         document.getElementById("flexContact").style.width = "25%"
         document.getElementById("flexContact").style.transition = ".5s"
-        document.getElementById("paginaPrincipal").style.filter = "none"
+
          document.getElementById("paginaPrincipal").style.width = "85%"
         document.getElementById("paginaPrincipal").style.transition = ".5s"
        
