@@ -9,6 +9,7 @@
 body {
     width: 100%;
     display: flex;
+
 }
 
 .bordeNegro {
@@ -17,6 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2%;
+    
 }
 
 .bordesNegross {
@@ -31,7 +34,7 @@ body {
 }
 
 .menu {
-    width: 8%;
+
     cursor: pointer;
     position: fixed;
     top: 3%;
@@ -46,12 +49,14 @@ body {
     display: none;
     flex-direction: column;
     gap: 25px;
+
 }
 
 .menuResponsiveEnlace {
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
 .menuResponsiveEnlace img {
@@ -64,13 +69,31 @@ body {
     letter-spacing: 1px;
 }
 
+.flexIcons {
+    width: 25%;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    margin-top: 12px;
+
+
+}
+
+.imgFlexIcons {
+    object-fit: cover;
+    width: 20px;
+}
+
 .menu img {
-    object-fit: contain;
-    width: 30%;
+    object-fit: cover;
+    width: 45%;
+    filter: no;
 }
 
 .contenidoPagina {
     width: 100%;
+    
+    
 }
 
 .header {
@@ -87,6 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 7%;
     position: fixed;
     z-index: 1000000000000;
 }
@@ -104,8 +128,34 @@ body {
     width: 85%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 5%;
+    
+   
 }
+
+.contenedorEnlacesNavegador{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;    
+
+}
+
+.subrayado{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-left: -100%; 
+    transition: .8s;
+}
+
+.contenedorEnlacesNavegador:hover .subrayado{
+    margin-left: 0;
+}
+
+
+
 
 .seccionMarca {
     height: 50%;
