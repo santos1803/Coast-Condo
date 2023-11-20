@@ -302,3 +302,30 @@
     
     
 }
+
+@media (max-width:400px) {
+
+    .contenedorLetrasResponsive {
+
+        width: 95%;
+       
+    
+    }
+    .contenedorLetrasResponsive h1 {
+        
+        font-size: 1.4em;
+    
+    }
+
+    .parrafo--a {
+        text-shadow: 20px;
+        font-size: .7em;
+    }
+
+    .estiloBotones--b {
+        width: 24%;
+        font-size: 3vw;
+    }
+    
+    
+}
