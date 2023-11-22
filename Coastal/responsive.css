@@ -77,22 +77,15 @@
         width: 10%;
         left: 85%;
     }
- 
-}
-
-@media (max-width: 700px) {
-    .menuResponsive {
-        width: 35%;
-    }
-
     .nombreLogoFooterResponsive{
         
         padding: 20% 0 0 0;
     
     }
-
-   
+ 
 }
+
+
 
 @media (max-width: 450px) {
     .menuResponsive {
@@ -399,7 +392,7 @@
  }
  
  .textoContenedorUno p {
-    width: 90%;
+    width: 80%;
     font-size: 3vw;
     letter-spacing: 1px;
     line-height: 1.5em;
