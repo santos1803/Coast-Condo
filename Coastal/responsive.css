@@ -1,4 +1,16 @@
+/*BODY*/
+@media (max-width:900px) {
+   body {
+    display: block;
+   }
 
+   .bordeNegro {
+    display: none;
+   }
+    
+}
+
+/*------------------*/
 
 @media (max-width: 900px) {
     .navegador {
@@ -7,16 +19,8 @@
     .bordeNegro {
         width: 6%;
     }
-    .menu {
-        display: block;
-    }
-    .menuResponsiveEnlace a {
-        width: 0;
-        overflow: hidden;
-    }
-    .menuResponsive {
-        display: flex;
-    }
+   
+   
     .bordesNegross {
         display: none;
     }
@@ -53,65 +57,67 @@
 
 /* MENU RESPONSIVE*/
 
-@media (max-width:899px) {
-    .menu {
-        left: 2% !important;
-
-    }
-
+@media (max-width: 900px) {
     .menuResponsive {
-        left: 2% !important;
+        display: flex;
     }
 
-    .bordeNegro {
-        width: 8% ;
+    .menu {
+        display: flex;
     }
+ 
 }
 
-@media (max-width:699px) {
-    .menu {
-        left: 2.3% !important;
-
-    }
-
+@media (max-width: 700px) {
     .menuResponsive {
-        left: 2.3% !important;
+        width: 30%;
     }
 
-    .bordeNegro {
-        width: 10% ;
+    .menu {
+        width: 10%;
+        left: 85%;
     }
+ 
 }
 
-@media (max-width:599px) {
-    .menu {
-        left: 2.8% !important;
-
-    }
-
+@media (max-width: 700px) {
     .menuResponsive {
-        left: 2.8% !important;
+        width: 35%;
     }
 
-    .bordeNegro {
-        width: 12% ;
+    .nombreLogoFooterResponsive{
+        
+        padding: 20% 0 0 0;
+    
     }
+
+   
 }
 
-@media (max-width:450px) {
-    .menu {
-        left: 4.5% !important;
-
-    }
-
+@media (max-width: 450px) {
     .menuResponsive {
-        left: 4.5% !important;
+        width: 45%;
     }
 
-    .bordeNegro {
-        width: 12% ;
+    .menu {
+        width: 12%;
+        left: 80%;
     }
+ 
 }
+
+@media (max-width: 400px) {
+    .menuResponsive {
+        width: 50%;
+    }
+
+    .menu {
+        width: 12%;
+        left: 80%;
+    }
+ 
+}
+
 
 
 
@@ -237,12 +243,12 @@
 
     .parrafo--a {
         text-shadow: 20px;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .estiloBotones--b {
         width: 24%;
-        font-size: 2vw;
+        font-size: 2.3vw;
     }
     
     
@@ -265,12 +271,12 @@
 
     .parrafo--a {
         text-shadow: 20px;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .estiloBotones--b {
         width: 30%;
-        font-size: 2.4vw;
+        font-size: 2.7vw;
     }
     
     
@@ -292,12 +298,12 @@
 
     .parrafo--a {
         text-shadow: 20px;
-        font-size: .9em;
+        font-size: 1.1em;
     }
 
     .estiloBotones--b {
         width: 30%;
-        font-size: 2.8vw;
+        font-size: 2.9vw;
     }
     
     
@@ -319,7 +325,7 @@
 
     .parrafo--a {
         text-shadow: 20px;
-        font-size: .7em;
+        font-size: 1.1em;
     }
 
     .estiloBotones--b {
@@ -353,6 +359,26 @@
 
     
 }
+
+@media (max-width:850px) {
+    .grid--a {
+        height: 15em;
+        
+    }
+    
+    .grid--b {
+        height: 13em;
+        
+    }
+    
+    .grid--c {
+        height: 27em;
+       
+    }
+    
+ 
+     
+ }
 
 @media (max-width:700px) {
     .contenedorUno {
@@ -395,20 +421,26 @@
  }
  
  .titulosh1 h1 {
-     font-size: 3.8vw;
+     font-size: 4vw;
      
  }
  
  .textoContenedorUno p {
     width: 90%;
-    font-size: 2.8vw;
+    font-size: 3.1vw;
     letter-spacing: 1px;
     line-height: 1.5em;
 }
+
+.grid--b {
+    height: 11.2em;
+
      
  }
 
- @media (max-width:500px) {
+}
+
+ @media (max-width:580px) {
     .contenedorUno {
      flex-direction: column;
     }
@@ -422,13 +454,13 @@
  }
  
  .titulosh1 h1 {
-     font-size: 4vw;
+     font-size: 4.6vw;
      
  }
  
  .textoContenedorUno p {
     width: 90%;
-    font-size: 3vw;
+    font-size: 3.9vw;
     letter-spacing: 1px;
     line-height: 1.5em;
 }
@@ -449,15 +481,169 @@
  }
  
  .titulosh1 h1 {
-     font-size: 3.8vw;
+     font-size: 5.2vw;
      
  }
  
  .textoContenedorUno p {
     width: 90%;
-    font-size: 2.8vw;
+    font-size: 4.6vw;
     letter-spacing: 1px;
     line-height: 1.5em;
 }
      
+ }
+
+ @media (max-width:400px) {
+   
+ .titulosh1 h1 {
+     font-size: 5.4vw;
+     
+ }
+ 
+ .textoContenedorUno p {
+    width: 90%;
+    font-size: 4.9vw;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+     
+ }
+
+ /*Botones tarjetas precios*/
+ 
+ @media (max-width:1200px) {
+    .estiloBotones--a {
+        width: 50%;
+
+  }
+ }
+ 
+ @media (max-width:1080px) {
+    .estiloBotones--a {
+        width: 60%;
+
+  }
+
+  .arrow {
+    left: 65%;
+  }
+ }
+
+ /*CONTENEDOR PRECIOS*/
+
+
+ 
+ @media (max-width:950px) {
+    .estiloBotones--a {
+        width: 60%;
+
+  }
+
+  .arrow {
+    left: 65%;
+  } 
+  
+  .contenedorDos {
+    display: none;
+ }
+
+ .contenedorUno--a {
+    display: flex;
+}
+
+ 
+ }
+
+
+ @media (max-width:700px) {
+    .cartPrecios {
+        width: 65%;
+        
+        
+      }
+
+      .primeraParteTitulo--a {
+        font-size: 5vw !important;
+    }
+
+    .listaItems--a {
+        font-size: 2.5vw;
+       
+      }
+ 
+ }
+
+ @media (max-width:590px) {
+    .cartPrecios {
+        width: 70%;
+        
+        
+      }
+
+      .primeraParteTitulo--a {
+        font-size: 5.5vw !important;
+    }
+
+    .listaItems--a {
+        font-size: 2.9vw;
+       
+      }
+
+      .estiloBotones--c {
+        width: 35%;
+        font-size: 3vw !important;
+      }
+
+      .desapareceTxtTitulo--a {
+        font-size: 2.6vw;
+      }
+ 
+ }
+
+ @media (max-width:490px) {
+    .cartPrecios {
+        width: 75%;
+        
+        
+      }
+
+      .primeraParteTitulo--a {
+        font-size: 5.5vw !important;
+    }
+
+    .listaItems--a {
+        font-size: 3.3vw;
+       
+      }
+
+      .estiloBotones--c {
+        width: 35%;
+        font-size: 3.3vw !important;
+      }
+ 
+ }
+
+
+ @media (max-width:400px) {
+    .cartPrecios {
+        width: 78%;
+        
+        
+      }
+
+      .primeraParteTitulo--a {
+        font-size: 5.8vw !important;
+    }
+
+    .listaItems--a {
+        font-size: 3.5vw;
+       
+      }
+
+      .estiloBotones--c {
+        width: 35%;
+        font-size: 3.5vw !important;
+      }
+ 
  }

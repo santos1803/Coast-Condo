@@ -16,59 +16,66 @@
     <title>Coast Condo</title>
   </head>
 
-  <body>
-    <aside class="bordeNegro" id="desplegable">
-      <article class="menu" id="mantener" onclick="abrir();">
-        <img src="./recursos/icons8-menú-50.png" alt="" />
+  <body id="body">
+    <article class="menu" id="mantener" onclick="abrir();">
+      <img src="./recursos/icons8-menú-50.png" alt="" />
+    </article>
+    <section class="menuResponsive" id="aparecer">
+      <article class="logoMenuResponsive">
+        <img src="./logo/DIAPOPOSITIVO_SCW - ICONO - 150PPP - 46,73 x 40,74 px.png" alt="">
       </article>
+      <article class="menuResponsiveEnlace">
+        <img src="./recursos/bombilla.png" alt="" />
+        <a href="#introduction" >Introduction</a>
+      </article>
+      <article class="menuResponsiveEnlace">
+        <img src="./recursos/homa.png" alt="" />
+        <a href="" >HomeWatch</a>
+      </article>
+      <article class="menuResponsiveEnlace">
+        <img src="./recursos/signo-de-dolar.png" alt="" />
+        <a href="" >Pricing</a>
+      </article>
+      <article class="menuResponsiveEnlace">
+        <img src="./recursos/grupo.png" alt="" />
+        <a href="" >About</a>
+      </article>
+      <article class="menuResponsiveEnlace">
+        <img src="./recursos/contactos.png" alt="" />
+        <a href="" >Contact</a>
+      </article>
+      <article class="flexIcons" id="flexContact">
+        <a href=""
+          ><img
+            class="imgFlexIcons"
+            src="./recursos/icons8-facebook-50.png"
+            alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="imgFlexIcons"
+            src="./recursos/icons8-instagram-505.png"
+            alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="imgFlexIcons"
+            src="./recursos/icons8-coordenada-x-50.png"
+            alt=""
+        /></a>
+      </article>
+      <article class="nombreLogoFooterResponsive">
+        <img src="./logo/DIAPOPOSITIVO_SCW - LOGOTIPO - 150PPP - 165,66 x 27,73 px.png" alt="">
 
-      <section class="menuResponsive">
-        <article class="menuResponsiveEnlace">
-          <img src="./recursos/bombilla.png" alt="" />
-          <a href="#introduction" id="letras">Introduction</a>
-        </article>
-        <article class="menuResponsiveEnlace">
-          <img src="./recursos/homa.png" alt="" />
-          <a href="" id="letrotas">HomeWatch</a>
-        </article>
-        <article class="menuResponsiveEnlace">
-          <img src="./recursos/signo-de-dolar.png" alt="" />
-          <a href="" id="letritas">Pricing</a>
-        </article>
-        <article class="menuResponsiveEnlace">
-          <img src="./recursos/grupo.png" alt="" />
-          <a href="" id="letrass">About</a>
-        </article>
-        <article class="menuResponsiveEnlace">
-          <img src="./recursos/contactos.png" alt="" />
-          <a href="" id="letrasss">Contact</a>
-        </article>
-        <article class="flexIcons" id="flexContact">
-          <a href=""
-            ><img
-              class="imgFlexIcons"
-              src="./recursos/icons8-facebook-50.png"
-              alt=""
-          /></a>
-          <a href=""
-            ><img
-              class="imgFlexIcons"
-              src="./recursos/icons8-instagram-505.png"
-              alt=""
-          /></a>
-          <a href=""
-            ><img
-              class="imgFlexIcons"
-              src="./recursos/icons8-coordenada-x-50.png"
-              alt=""
-          /></a>
-        </article>
-      </section>
+      </article>
+    </section>
+    <aside class="bordeNegro" id="desplegable">
+     
       <section class="bordesNegross">
         <article class="seccionMarca">
           <div class="separador"></div>
           <section class="tituloMarca">
-            <h3>Coast Condo</h3>
+            <img src="./logo/DIAPOPOSITIVO_SCW - LOGOTIPO 90°- 150PPP - 27,73 x 165,66 px.png" alt="">
           </section>
           <div class="separador"></div>
         </article>
@@ -90,10 +97,13 @@
       </section>
     </aside>
     <div class="contenidoPagina" id="paginaPrincipal">
+      <div class="cristal" id="cristal">
+
+      </div>
       <header class="header">
         <nav class="navegador">
           <article class="logo">
-            <img src="./logo/image-removebg-preview.png" alt="" width="80px" />
+            <img src="./logo/DIAPOPOSITIVO_SCW - ICONO - 150PPP - 46,73 x 40,74 px.png" alt="" width="80px" />
           </article>
           <article class="enlacesNavegador">
             <article class="contenedorEnlacesNavegador">
@@ -199,12 +209,7 @@
             home is being meticulously looked after while you are away.
           </p>
           <section class="navegadorInterno">
-            <!-- <article class="enlacesNavegadorInterno">
-                <a id="enlaceGrid" href="" >Condominiums</a>
-                <a  id="enlaceGrid" href="">Houses</a>
-                <a class="enlaceGrid" href="">Apartments</a>
-                <a class="enlaceGrid" href="">V.I.P</a>
-            </article> -->
+            
             <article class="contenedorGrid">
               <articleb
                 class="grid--a"
@@ -322,27 +327,9 @@
                   />
                   <p>Empty mailbox</p>
                 </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Inspect breaker box</p>
-                </article>
+               
+               
+                
                 <a href="" class="estiloBotones estiloBotones--a">Contact</a>
               </section>
             </section>
@@ -432,27 +419,9 @@
                   />
                   <p>Monitor landscape and pool water/level, if any</p>
                 </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Empty mailbox</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
+      
+               
+               
 
                 <a href="" class="estiloBotones estiloBotones--a">Contact</a>
               </section>
@@ -543,33 +512,294 @@
                   />
                   <p>Monitor landscape and pool water/level, if any</p>
                 </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Empty mailbox</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Adjust fans if necessary</p>
-                </article>
-                <article class="checklist">
-                  <img
-                    src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
-                    alt=""
-                  />
-                  <p>Ensure windows and doors are locked</p>
-                </article>
+   
+               
+            
 
                 <a href="" class="estiloBotones estiloBotones--a">Contact</a>
               </section>
             </section>
           </article>
         </section>
+      </div>
+      <div class="contenedorUno contenedorUno--a">
+        <article
+        class="titulosh1"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+       
+      >
+        <h1 class="primeraParteTitulo primeraParteTitulo--a">Choose Your <span class="spanFocus">Program</span></h1>
+
+      </article>
+      <section class="cartPrecios">
+       
+        <article class="imgPricing">
+      
+        </article>
+
+        <article class="itemsTools">
+          <section class="desapareceTxt desapareceTxt--a">
+          
+            <article class="desapareceTxtTitulo">
+              <h2>50$</h2>
+            </article>
+            <article class="desapareceTxtTitulo2">
+              <h3>Per Visit </h3>
+            </article>
+            <article class="desapareceTxtTitulo desapareceTxtTitulo--a">
+              <h2>Silver Program</h2>
+            </article>
+            <section class="listaItems listaItems--a">
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Replacement of AC filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run water in toilets, showers, and sinks</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run garbage disposal</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Water Plants. Apply nutrients</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for water leaks</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for mold and moisture</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Monitor landscape and pool water/level, if any</p>
+              </article>
+ 
+             
+          
+
+              <a href="" class="estiloBotones estiloBotones--c">Contact</a>
+            </section>
+
+        </article>
+
+      </section>
+
+      <section class="cartPrecios">
+        <article class="imgPricing imgPricing--a">
+      
+        </article>
+
+        <article class="itemsTools">
+          <section class="desapareceTxt desapareceTxt--a">
+            <article class="desapareceTxtTitulo">
+              <h2>80$</h2>
+            </article>
+            <article class="desapareceTxtTitulo2">
+              <h3>2 Visits Monthly</h3>
+            </article>
+            <article class="desapareceTxtTitulo desapareceTxtTitulo--a">
+              <h2>Golden Program</h2>
+            </article>
+            <section class="listaItems listaItems--a">
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Replacement of AC filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run water in toilets, showers, and sinks</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run garbage disposal</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Water Plants. Apply nutrients</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for water leaks</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for mold and moisture</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Monitor landscape and pool water/level, if any</p>
+              </article>
+ 
+             
+          
+
+              <a href="" class="estiloBotones estiloBotones--c">Contact</a>
+            </section>
+
+        </article>
+
+      </section>
+
+      <section class="cartPrecios">
+        <article class="imgPricing imgPricing--b">
+      
+        </article>
+
+        <article class="itemsTools">
+          <section class="desapareceTxt desapareceTxt--a">
+            <article class="desapareceTxtTitulo">
+              <h2>120$</h2>
+            </article>
+            <article class="desapareceTxtTitulo2">
+              <h3>4 Visits Monthly</h3>
+            </article>
+            <article class="desapareceTxtTitulo desapareceTxtTitulo--a">
+              <h2>Diamond Program</h2>
+            </article>
+            <section class="listaItems listaItems--a">
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Inspect AC, Temperature, Humidity, and Air filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Replacement of AC filter.</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run water in toilets, showers, and sinks</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Run garbage disposal</p>
+              </article>
+
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Water Plants. Apply nutrients</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for water leaks</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Check for mold and moisture</p>
+              </article>
+              <article class="checklist">
+                <img
+                  src="./recursos/icons8-casilla-de-verificación-marcada-50.png"
+                  alt=""
+                />
+                <p>Monitor landscape and pool water/level, if any</p>
+              </article>
+ 
+             
+          
+
+              <a href="" class="estiloBotones estiloBotones--c">Contact</a>
+            </section>
+
+        </article>
+
+      </section>
+
+
       </div>
       <div class="contenedorTres">
         <article class="txtGonzo">
