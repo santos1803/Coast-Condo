@@ -81,11 +81,11 @@ body {
 .menuResponsiveEnlace {
   display: flex;
   align-items: center;
-
   gap: 5px;
   width: 100%;
-
   padding: 3% 0;
+  position: relative;
+  left: 12%;
 }
 
 .menuResponsiveEnlace img {
@@ -103,6 +103,8 @@ body {
   display: flex;
   gap: 20px;
   margin-top: 12px;
+  position: relative;
+  left: 12%;
 }
 
 .imgFlexIcons {
