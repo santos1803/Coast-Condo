@@ -640,3 +640,59 @@
       }
  
  }
+
+
+ /*SECCION ABOUT*/
+
+ @media (max-width:1200px) {
+    .contenedorTres {
+        display: none;
+    }
+    .contenedorTres--a {
+        display: flex;
+    }
+ }
+
+ @media (max-width:950px) {
+   
+    .contenedorTres--a {
+        border-radius: 50px;
+        background: #ffffff;
+        box-shadow:  -5px -5px 10px #3e3e3e55,
+                     5px 5px 10px #fcfcfc;
+    }
+ }
+
+ @media (max-width:800px) {
+   
+    .fotoGonzo {
+        width: 55%;
+    }
+ }
+
+ @media (max-width:650px) {
+   
+    #textoDesaparece{
+        display: none;
+    }
+ }
+
+ @media (max-width:550px) {
+   
+    .fotoGonzo {
+        width: 70%;
+    }
+
+    #textoDesaparecer {
+        display: none;
+    }
+ }
+
+ @media (max-width:450px) {
+   
+    .fotoGonzo {
+        width: 80%;
+    }
+
+    
+ }

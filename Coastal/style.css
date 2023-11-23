@@ -479,6 +479,7 @@ body {
   align-items: center;
   gap: 4em;
   overflow: hidden;
+  padding: 5% 0;
   
 }
 
@@ -714,6 +715,16 @@ margin-bottom: 10px;
   overflow: hidden;
 }
 
+.contenedorTres--a {
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  gap: 20px;
+  padding: 5% 0;
+
+}
+
 .imgGonzo {
   width: 50%;
   display: flex;
@@ -741,8 +752,17 @@ margin-bottom: 10px;
   letter-spacing: 1px;
   line-height: 2em;
   padding: 2%;
-  display: flex;
-  align-items: center;
+ 
+}
+
+.txtGonzo--a  {
+  padding: 0 4%;
+
+}
+
+.txtGonzo--a p {
+  width: 100%;
+
 }
 
 .parrafo1 {
@@ -766,6 +786,26 @@ margin-bottom: 10px;
   box-shadow: -10px -10px 40px #ebebeb, 10px 10px 30px #ffffff;
 }
 
+.fotoGonzo {
+  width: 40%;
+  height: 50vh;
+  background-image: url(./recursos/IMG-20231113-WA0017.jpg);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  border-radius: 50px;
+  
+}
+
+.textoMagico {
+  border-radius: 50px;
+  padding: 5% !important;
+background: #ffffff;
+box-shadow:  5px 5px 10px #cfcfcf,
+             -5px -5px 10px #ffffff;
+}
+
+/*CONTENEDOR DE FOOTER*/
 .contacUsBackground {
   width: 100%;
   height: 60vh;
