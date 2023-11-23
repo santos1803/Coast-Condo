@@ -848,6 +848,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+ 
 }
 
 .txtContainIcons {
@@ -860,7 +861,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
 
 .txtContainIcons h1 {
   color: #ad844c;
-  font-size: 3em;
+  font-size: 3vw;
   font-style: italic;
   letter-spacing: 2px;
   font-weight: 500;
@@ -888,13 +889,13 @@ box-shadow:  5px 5px 10px #cfcfcf,
 }
 
 .separadoresContenido h4 {
-  font-size: 0.9em;
+  font-size: 1.3vw;
   color: #ad844c;
 }
 
 .separadoresContenido p {
   text-align: center;
-  font-size: 0.8em;
+  font-size: .8vw;
   letter-spacing: 1px;
   color: rgb(181, 181, 181);
 }
@@ -920,7 +921,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
 
 .txtForm h3 {
   color: rgb(181, 181, 181);
-  font-size: 1.1em;
+  font-size: 1.3vw;
   letter-spacing: 4px;
   word-spacing: 3px;
 }
@@ -943,8 +944,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
   color: rgb(181, 181, 181);
 }
 
-.formulario input::placeholder,
-.formulario textarea::placeholder {
+.formulario input::placeholder, .formulario textarea::placeholder {
   color: rgb(181, 181, 181);
 }
 
@@ -952,14 +952,14 @@ box-shadow:  5px 5px 10px #cfcfcf,
 .formulario input[type="phone"],
 .formulario input[type="email"] {
   color: rgb(181, 181, 181);
-  font-size: 0.9em;
+  font-size: 0.9vw;
   padding: 1.5% 0 1.5% 2%;
   letter-spacing: 1px;
 }
 
 textarea {
   color: rgb(181, 181, 181);
-  font-size: 0.9em;
+  font-size: 0.9vw;
   padding: 1.5% 0 1.5% 2%;
   letter-spacing: 1px;
 }
@@ -969,7 +969,7 @@ textarea {
   padding: 1.5% 0;
   background-color: #ad844c;
   border: none;
-  font-size: 0.9em;
+  font-size: 0.9vw;
   font-weight: 800;
   letter-spacing: 1px;
   cursor: pointer;

@@ -696,3 +696,329 @@
 
     
  }
+
+ /*FORMULARIO*/
+
+ @media (max-width:1100px) {
+    .containIcons {
+        width: 70%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 3.3vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 1.5vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 1.5vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 1vw;
+ 
+}
+
+textarea {
+
+  font-size: 1vw;
+
+}
+
+.buttonForm {
+
+  font-size: 1vw;
+  
+}
+      
+    
+ }
+
+ @media (max-width:950px) {
+    .containIcons {
+        width: 75%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 3.5vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 1.6vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1.1vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 1.7vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 1.1vw;
+ 
+}
+
+textarea {
+
+  font-size: 1.1vw;
+
+}
+
+.buttonForm {
+
+  font-size: 1.2vw;
+  
+}
+      
+    
+ }
+
+ @media (max-width:800px) {
+    .containIcons {
+        width: 80%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 3.6vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 1.7vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1.2vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 1.8vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 1.2vw;
+ 
+}
+
+textarea {
+
+  font-size: 1.2vw;
+
+}
+
+.buttonForm {
+
+  font-size: 1.3vw;
+  
+}
+      
+    
+ }
+
+ @media (max-width:700px) {
+    .containIcons {
+        width: 85%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 3.8vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 1.9vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1.4vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 2vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 1.4vw;
+ 
+}
+
+textarea {
+
+  font-size: 1.4vw;
+
+}
+
+.buttonForm {
+
+  font-size: 1.5vw;
+  
+}
+      
+    
+ }
+
+ @media (max-width:600px) {
+    .containIcons {
+        width: 100%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 4vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 2vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1.5vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 2vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 1.9vw;
+ 
+}
+
+textarea {
+
+  font-size: 1.9vw;
+
+}
+
+.buttonForm {
+
+  font-size: 1.9vw;
+  
+}
+
+.separadoresInconsTxt {
+    
+    justify-content: space-evenly;
+  
+  }
+      
+    
+ }
+
+ @media (max-width:500px) {
+    .containIcons {
+        width: 100%;
+        
+      }
+
+      .txtContainIcons h1 {
+       
+        font-size: 4.2vw;
+        
+      }
+
+      .separadoresContenido h4 {
+        font-size: 2.2vw;
+  
+      }
+
+      .separadoresContenido p {
+ 
+        font-size: 1.6vw;
+   
+      }
+
+      .txtForm h3 {
+
+        font-size: 1.8vw;
+    
+      }
+
+      .formulario input[type="text"],
+.formulario input[type="phone"],
+.formulario input[type="email"] {
+
+  font-size: 2.1vw;
+ 
+}
+
+textarea {
+
+  font-size: 2.1vw;
+
+}
+
+.buttonForm {
+
+  font-size: 2.1vw;
+  
+}
+
+.separadoresInconsTxt {
+    
+    justify-content: space-evenly;
+  
+  }
+      
+    
+ }
