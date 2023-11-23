@@ -656,7 +656,9 @@
  @media (max-width:950px) {
    
     .contenedorTres--a {
-        border-radius: 50px;
+
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
         background: #ffffff;
         box-shadow:  -5px -5px 10px #3e3e3e55,
                      5px 5px 10px #fcfcfc;
