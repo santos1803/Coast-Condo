@@ -70,7 +70,7 @@
 
 @media (max-width: 700px) {
     .menuResponsive {
-        width: 30%;
+        width: 40%;
     }
 
     .menu {
@@ -79,7 +79,7 @@
     }
     .nombreLogoFooterResponsive{
         
-        padding: 20% 0 0 0;
+        padding: 10% 0 0 0;
     
     }
  
