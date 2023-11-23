@@ -1,5 +1,5 @@
 /*BODY*/
-@media (max-width:900px) {
+@media (max-width:950px) {
    body {
     display: block;
    }
@@ -12,7 +12,7 @@
 
 /*------------------*/
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .navegador {
         display: none;
     }
@@ -57,7 +57,7 @@
 
 /* MENU RESPONSIVE*/
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     .menuResponsive {
         display: flex;
     }
@@ -164,7 +164,7 @@
     
 }
 
-@media (max-width:900px) {
+@media (max-width:950px) {
     .principalPagina {
         display:flex;
     }
