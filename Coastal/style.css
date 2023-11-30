@@ -980,3 +980,232 @@ textarea {
   letter-spacing: 1px;
   cursor: pointer;
 }
+
+
+/*CONTENEDOR GONZO*/
+
+.contenedorGonzo {
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  padding: 3% 3%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.gonzoTxt {
+  width: 60%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.gonzoTxt h2 {
+  font-size: 2vw;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.gonzoTxt p {
+  font-size: 1.5vw;
+  line-height: 1.6em;
+
+}
+
+.gonzoImg {
+  width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gonzoImg img {
+ object-fit: contain;
+ width: 50%;
+ border: 10px solid white;
+ border-radius: 100%;
+}
+
+.gonzoImg h2 {
+  letter-spacing: 2px;
+}
+
+.estiloBotones--d {
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  z-index: 100;
+}
+
+.estiloBotones--d:hover {
+  color: rgb(11, 11, 11);
+}
+
+.estiloBotones--d::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #ffffff !important;
+  z-index: -1;
+  transition: all 1s;
+}
+
+.contenedorServicios {
+  width: 100%;
+}
+
+.contenedorTituloServicios {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2% 0;
+}
+
+.contenedorTituloServicios h1{
+  color: rgb(131, 131, 131);
+  font-size: 3.2vw;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.tarjetaPrograma {
+  width: 100%;
+  background-image: url(./recursos/pexels-brian-penny-13620067.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 0;
+}
+
+.cartsProgram {
+  width: 30%;
+  padding: 3% 0;
+  background-color: #0000008c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.numberscart {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.numberscart img {
+  width: 60px;
+}
+
+
+
+.list {
+
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.list h3 {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.listcheck {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.listcheck h5 {
+  width: 100%;
+  font-size: 1.1vw;
+  font-weight: 300;
+  color: white;
+ 
+}
+
+.listcheck img {
+  width: 15px;
+}
+
+.partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+  gap:60px;
+
+}
+
+.titlePartner h1 {
+  color: rgb(131, 131, 131);
+  font-size: 3.2vw;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.imgPartner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.imgPartner a {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+box-shadow: 0 0 10px black;
+transform: scale(1);
+animation: pulse 2s infinite;
+
+  
+}
+
+.imgPartner a:hover {
+  
+animation-play-state: paused;
+  
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+
+
