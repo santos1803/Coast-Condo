@@ -984,9 +984,15 @@ textarea {
 
 /*CONTENEDOR GONZO*/
 
+.megapadre {
+  background-image: url(./recursos/pexels-brian-penny-13620067.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .contenedorGonzo {
   width: 100%;
-  background-color: #000000;
+  /* background-color: #000000; */
   display: flex;
   padding: 3% 3%;
   align-items: center;
@@ -1012,6 +1018,8 @@ textarea {
 .gonzoTxt p {
   font-size: 1.4vw;
   line-height: 1.6em;
+  text-align: justify;
+  text-indent: 1.5em;
 
 }
 
@@ -1068,6 +1076,7 @@ textarea {
   display: flex;
   justify-content: center;
   padding: 2% 0;
+  background-color: rgba(255, 255, 255, 0.797);
 }
 
 .contenedorTituloServicios h1{
@@ -1079,7 +1088,7 @@ textarea {
 
 .tarjetaPrograma {
   width: 100%;
-  background-image: url(./recursos/pexels-brian-penny-13620067.jpg);
+  /* background-image: url(./recursos/pexels-brian-penny-13620067.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
