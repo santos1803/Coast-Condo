@@ -992,6 +992,16 @@ textarea {
   overflow: hidden;
 
 }
+
+.megapadre {
+  background-image: url(./recursos/pexels-brian-penny-13620067.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+}
+
 .contenedorGonzo {
   width: 100%;
   /* background-color: #000000; */
