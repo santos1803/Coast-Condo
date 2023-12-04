@@ -65,12 +65,26 @@
     .menu {
         display: flex;
     }
+
+    .usResponsive, .espResponsive {
+      font-size: 1.4vw !important;
+    
+    }
+    
  
+}
+
+@media (max-width: 800px) {
+  .usResponsive, .espResponsive {
+    font-size: 1.6vw !important;
+  
+  }
+
 }
 
 @media (max-width: 700px) {
     .menuResponsive {
-        width: 40%;
+        width: 30%;
     }
 
     .menu {
@@ -79,10 +93,42 @@
     }
     .nombreLogoFooterResponsive{
         
-        padding: 10% 0 0 0;
+        padding: 0% 0 0 0;
+    
+    }
+
+    .usResponsive, .espResponsive {
+      font-size: 1.9vw !important;
     
     }
  
+}
+
+@media (max-width: 600px) {
+
+  .menuResponsive {
+    width: 35%;
+}
+
+
+  .usResponsive, .espResponsive {
+    font-size: 2.2vw !important;
+  
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .menuResponsive {
+    width: 40%;
+}
+
+  .usResponsive, .espResponsive {
+    font-size: 2.5vw !important;
+  
+  }
+
 }
 
 
@@ -96,6 +142,11 @@
         width: 14%;
         left: 80%;
     }
+
+    .usResponsive, .espResponsive {
+      font-size: 2.8vw !important;
+    
+    }
  
 }
 
@@ -108,7 +159,10 @@
         width: 14%;
         left: 80%;
     }
- 
+    .usResponsive, .espResponsive {
+      font-size: 3vw !important;
+    
+    }
 }
 
 
@@ -132,9 +186,9 @@
     }
 
     .estiloBotones {
-        width: 25%;
+        width: 15%;
         
-        font-size: 1.2vw;
+        font-size: 1.3vw;
        
     }
     
@@ -156,9 +210,9 @@
     }
 
     .estiloBotones {
-        width: 30%;
+        width: 20%;
         
-        font-size: 1.4vw;
+        font-size: 1.5vw;
        
     }
     
@@ -212,13 +266,33 @@
         font-size: 1.3em;
     }
 
-    .estiloBotones--b {
-        width: 20%;
-        font-size: 1.8vw;
-    }
     
+
+    .estiloBotones {
+      width: 24%;
+      
+      font-size: 1.7vw;
+     
+  }
     
 }
+
+@media (max-width:700px) {
+  .buttomsPrograms {
+  
+      
+    padding: 5% 0;
+  }
+
+  .estiloBotones {
+    width: 27%;
+    
+    font-size: 1.9vw;
+   
+}
+}
+
+
 
 @media (max-width:630px) {
 
@@ -239,10 +313,12 @@
         font-size: 3.2vw;
     }
 
-    .estiloBotones--b {
-        width: 24%;
-        font-size: 2.3vw;
-    }
+    .estiloBotones {
+      width: 28%;
+      
+      font-size: 2.2vw;
+     
+  }
     
     
 }
@@ -267,12 +343,18 @@
         font-size: 3.9vw;
     }
 
-    .estiloBotones--b {
-        width: 30%;
-        font-size: 2.7vw;
-    }
+  
     
+}
+
+@media (max-width:500px) {
+  .estiloBotones {
+    width: 30%;
     
+    font-size: 2.3vw;
+   
+}
+  
 }
 
 @media (max-width:440px) {
