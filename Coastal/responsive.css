@@ -66,7 +66,7 @@
         display: flex;
     }
 
-    .usResponsive, .espResponsive {
+    .usResponsive, .espResponsive, .usResponsives, .espResponsives   {
       font-size: 1.4vw !important;
     
     }
@@ -75,7 +75,7 @@
 }
 
 @media (max-width: 800px) {
-  .usResponsive, .espResponsive {
+  .usResponsive, .espResponsive, .usResponsives, .espResponsives   {
     font-size: 1.6vw !important;
   
   }
@@ -97,7 +97,7 @@
     
     }
 
-    .usResponsive, .espResponsive {
+    .usResponsive, .espResponsive, .usResponsives, .espResponsives   {
       font-size: 1.9vw !important;
     
     }
@@ -111,7 +111,7 @@
 }
 
 
-  .usResponsive, .espResponsive {
+  .usResponsive, .espResponsive, .usResponsives, .espResponsives  {
     font-size: 2.2vw !important;
   
   }
@@ -124,7 +124,7 @@
     width: 40%;
 }
 
-  .usResponsive, .espResponsive {
+  .usResponsive, .espResponsive, .usResponsives, .espResponsives  {
     font-size: 2.5vw !important;
   
   }
@@ -143,7 +143,7 @@
         left: 80%;
     }
 
-    .usResponsive, .espResponsive {
+    .usResponsive, .espResponsive, .usResponsives, .espResponsives  {
       font-size: 2.8vw !important;
     
     }
@@ -159,7 +159,7 @@
         width: 14%;
         left: 80%;
     }
-    .usResponsive, .espResponsive {
+    .usResponsive, .espResponsive, .usResponsives, .espResponsives  {
       font-size: 3vw !important;
     
     }
@@ -1097,6 +1097,11 @@ textarea {
  }
 
  @media (max-width:500px) {
+
+    .contectContactUs--a h1 {
+      font-size: 8vw;
+    }
+
     .containIcons {
         width: 100%;
         
@@ -1572,7 +1577,7 @@ textarea {
   
   }
   .contenedorTituloServicios--b h1{
-    font-size: 7.5vw;
+    font-size: 5vw !important;
 
   }
   .imgPartner a {
@@ -1582,6 +1587,18 @@ textarea {
   }
   
 }
+
+@media (max-width:550px) {
+ 
+  .contenedorTituloServicios--a h1{
+    font-size: 4.5vw !important;
+
+  }
+  
+  
+  
+}
+
 
 @media (max-width:450px) {
   .partner {

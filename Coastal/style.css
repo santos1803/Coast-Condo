@@ -206,10 +206,18 @@ body {
 
 }
 
+.usResponsives, .espResponsives {
+  font-size: 1.3vw !important;
+
+}
+
 .us, .usResponsive {
   border: .5px solid white;
 }
 
+.esps, .espResponsives {
+  border: .5px solid white;
+}
 
 .subrayado {
   width: 100%;
@@ -900,6 +908,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: start;
   margin-top: 50px;
   overflow: hidden;
 }
@@ -935,7 +944,7 @@ box-shadow:  5px 5px 10px #cfcfcf,
 
 .separadores {
   width: 3px;
-  height: 15em;
+  height: 9em;
   background-color: #ad844c;
 }
 
@@ -1134,11 +1143,29 @@ textarea {
   padding: 0;
 }
 
-.contenedorTituloServicios h1{
+.contenedorTituloServicios h1 {
+
   color: rgb(131, 131, 131);
   font-size: 3.2vw;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.contenedorTituloServicios--b h1 {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+  font-size: 3.2vw;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+
+.contenedorTituloServicios--b h1 a{
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
 }
 
 .tarjetaPrograma {
