@@ -186,9 +186,9 @@
     }
 
     .estiloBotones {
-        width: 15%;
+        width: 20%;
         
-        font-size: 1.3vw;
+        font-size: 1.2vw;
        
     }
     
@@ -210,9 +210,9 @@
     }
 
     .estiloBotones {
-        width: 20%;
+        width: 25%;
         
-        font-size: 1.5vw;
+        font-size: 1.3vw;
        
     }
     
@@ -239,10 +239,12 @@
     
     }
 
-    .estiloBotones--b {
-        width: 25%;
-        font-size: 1.8vw;
-    }
+    .estiloBotones {
+      width: 25%;
+      
+      font-size: 1.4vw;
+     
+  }
     
     
 }
@@ -269,9 +271,9 @@
     
 
     .estiloBotones {
-      width: 24%;
+      width: 28%;
       
-      font-size: 1.7vw;
+      font-size: 1.4vw;
      
   }
     
@@ -284,8 +286,13 @@
     padding: 5% 0;
   }
 
+  .buttomsPrograms {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
   .estiloBotones {
-    width: 27%;
+    width: 35%;
     
     font-size: 1.9vw;
    
@@ -314,7 +321,7 @@
     }
 
     .estiloBotones {
-      width: 28%;
+      width: 40%;
       
       font-size: 2.2vw;
      
@@ -349,9 +356,9 @@
 
 @media (max-width:500px) {
   .estiloBotones {
-    width: 30%;
+    width: 45%;
     
-    font-size: 2.3vw;
+    font-size: 2.5vw;
    
 }
   
