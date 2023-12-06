@@ -301,12 +301,22 @@ body {
   margin-top: 40px;
 }
 
+.logo_Nombre {
+  width: 100%;
+
+}
+
+.logo_Nombre img {
+  object-fit: contain;
+  width: 60%;
+}
+
 .contenedorLetrasResponsive {
   color: white;
   width: 70%;
   display: none;
   flex-direction: column;
-  padding: 10% 2% 0 2%;
+  padding: 1% 2% 0 2%;
   gap: 40px;
 }
 
@@ -314,6 +324,14 @@ body {
   text-shadow: 20px;
   letter-spacing: 2px;
   font-size: 3em;
+  position: relative;
+  left: 2%;
+}
+
+.contenedorLetrasResponsive p {
+  
+  position: relative;
+  left: 2%;
 }
 
 .textoContenidoPrincipal > p {
