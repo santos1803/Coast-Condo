@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -1407,9 +1408,10 @@
             <h3>IF YOU GOT ANY QUESTIONS</h3>
             <h3>PLEASE DO NOT HESITATE TO SEND US A MESSAGE.</h3>
           </article>
-          <form action="" class="formulario">
+          <form action="https://formsubmit.co/gonzo@seasidecondowatch.com" method="POST" class="formulario">
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -1418,6 +1420,7 @@
             />
             <input
               type="phone"
+              name="phone"
               placeholder="Your Phone"
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -1426,6 +1429,7 @@
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -1433,7 +1437,7 @@
               data-aos-delay="0"
             />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"
@@ -1443,7 +1447,7 @@
               data-aos-easing="ease-in-out"
               data-aos-delay="0"
             ></textarea>
-            <button class="buttonForm">SEND MESSAGE</button>
+            <button class="buttonForm" type="submit">SEND MESSAGE</button>
           </form>
         </section>
       </div>
