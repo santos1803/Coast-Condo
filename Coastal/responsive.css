@@ -1550,6 +1550,16 @@ textarea {
    
     
   }
+
+  .txtNew p{
+
+    width: 90%;
+    font-size: 1.8vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.7em;
+  
+  }
   
 }
 
@@ -1561,7 +1571,7 @@ textarea {
   
   }
   .contenedorTituloServicios--b h1{
-    font-size: 5.5vw;
+    font-size: 4.5vw;
 
   }
   .imgPartner a {
@@ -1569,8 +1579,17 @@ textarea {
    
     
   }
+  .txtNew p{
+
+    width: 90%;
+    font-size: 2vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.7em;
   
+  }
 }
+
 
 
 @media (max-width:700px) {
@@ -1581,13 +1600,30 @@ textarea {
   
   }
   .contenedorTituloServicios--b h1{
-    font-size: 6.5vw;
+    font-size: 4vw;
 
   }
   .imgPartner a {
     width: 45%;
    
     
+  }
+
+  .txtNew {
+
+    padding:4% 3%;
+  
+  }
+
+
+  .txtNew p{
+
+    width: 90%;
+    font-size: 2.4vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.7em;
+  
   }
   
 }
@@ -1600,7 +1636,7 @@ textarea {
   
   }
   .contenedorTituloServicios--b h1{
-    font-size: 5vw !important;
+    font-size: 4vw !important;
 
   }
   .imgPartner a {
@@ -1616,6 +1652,17 @@ textarea {
   .contenedorTituloServicios--a h1{
     font-size: 4.5vw !important;
 
+
+    
+  }
+  .txtNew p{
+
+    width: 90%;
+    font-size: 2.6vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.7em;
+  
   }
   
   
@@ -1631,13 +1678,22 @@ textarea {
   
   }
   .contenedorTituloServicios--b h1{
-    font-size: 8.5vw;
+    font-size: 4.5vw;
 
   }
   .imgPartner a {
     width: 55%;
    
     
+  }
+  .txtNew p{
+
+    width: 90%;
+    font-size: 2.8vw;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.7em;
+  
   }
   
 }
