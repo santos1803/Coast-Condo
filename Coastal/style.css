@@ -1197,9 +1197,7 @@ textarea {
   align-items: center;
   gap: 1em;
   border-radius: 43px;
-  background: #ededed;
-  box-shadow:  20px 20px 60px #dfdfdf,
-               -20px -20px 60px #fbfbfb;
+  
 }
 
 .txtNew p{
